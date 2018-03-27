@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- https://logging.apache.org/log4j/2.x/manual/configuration.html -->
+
+<Appenders>
+
+    <AppenderWithStackTraces name="ABC" otherAttribute="...">
+        <PatternLayout pattern="%clr{%d{HH:mm:ss.SSS}}{faint} %clr{[%15.15t]}{faint} %clr{%5p} %clr{${sys:PID}}{magenta} %clr{---}{faint} %clr{%-40.40c{1.}}{cyan} %clr{:}{faint} %m%n"/>
+    </AppenderWithStackTraces>
+
+</Appenders>

@@ -1,0 +1,13 @@
+logging:
+  config: classpath:loggers/log4j2.xml
+  level.org.springframework.http.server: TRACE
+  level.org.springframework.http.client: TRACE
+  level.reactor.ipc.netty: TRACE
+  level.org.springframework.web.reactive: TRACE
+  level.io.searchbox: TRACE
+
+  level.io.searchbox.client.config.idle: INFO
+
+  level.org.apache.http.nio: TRACE
+  level.org.apache.http.impl.nio: TRACE
+
